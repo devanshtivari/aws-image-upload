@@ -1,7 +1,7 @@
 const AWS = require("aws-sdk");
 const QRcode = require("qrcode");
 const Jimp = require("jimp");
-const S3_BUCKET = "vvplus";
+const S3_BUCKET = "name of the bucket to be created";
 const s3bucket = new AWS.S3({ params: { Bucket: S3_BUCKET } });
 const s3 = new AWS.S3();
 
